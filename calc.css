@@ -1,0 +1,68 @@
+.btn{
+    border-radius: 100%;
+    background-color: hsl(0, 0%, 55%);
+    padding: 17px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    font-size: larger;
+     padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 15px hsl(0, 0%, 3%);
+}
+.btn:hover{
+    background-color: hsl(0, 0%, 65%);
+}
+.btn:active{
+    background-color: hsl(0, 0%, 75%) ;
+}
+.btnf{
+    border-radius: 100%;
+    background-color: hsl(35,100%, 55%);
+    padding: 17px;
+    text-align: center;
+    cursor: pointer;
+    border: none ;
+    font-size: larger;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0px 0px 15px hsl(0, 0%, 3%);
+}
+.btnf:hover{
+    background-color: hsl(35,100%, 65%);
+}
+.btnf:active{
+    background-color: hsl(35,100%, 75%);
+}
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.calc{
+    height: min-content;
+   text-align: center;
+   border: 2px solid #ccc;
+   padding: 20px;
+   margin-top:  175px;
+   border-radius: 50px !important;
+   background-color: hsl(0, 0%, 13%);
+   align-items: center;
+   box-shadow: 0px 0px 25px hsl(0, 0%, 3%);
+
+}
+body{
+    background-color: #111;
+    display: flex;
+   justify-content: center;
+   vertical-align: middle;
+}
+#display{
+    border-radius: 30px;
+    height: 40px;
+    color: #111;
+    box-shadow: 0px 0px 15px hsl(0, 0%, 3%);
+    text-shadow: 0px 0px 1px hsl(0, 0%, 3%);
+}
+

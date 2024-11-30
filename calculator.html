@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+    <script src="calc.js" defer></script> 
+</head>
+<body>
+    <fieldset class="calc">
+        <table id="calcu">
+            <tr>
+                <td colspan="3"><input type="text" id="display" readonly></td>
+                <td><button onclick="cleardisplay()" class="btnf">C</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="appendTodisplay('1')" class="btn">1</button></td>
+                <td><button onclick="appendTodisplay('2')" class="btn">2</button></td>
+                <td><button onclick="appendTodisplay('3')" class="btn">3</button></td>
+                <td><button onclick="appendTodisplay('/')" class="btnf">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="appendTodisplay('4')" class="btn">4</button></td>
+                <td><button onclick="appendTodisplay('5')" class="btn">5</button></td>
+                <td><button onclick="appendTodisplay('6')" class="btn">6</button></td>
+                <td><button onclick="appendTodisplay('*')" class="btnf">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="appendTodisplay('7')" class="btn">7</button></td>
+                <td><button onclick="appendTodisplay('8')" class="btn">8</button></td>
+                <td><button onclick="appendTodisplay('9')" class="btn">9</button></td>
+                <td><button onclick="appendTodisplay('-')" class="btnf">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="appendTodisplay('0')" class="btn">0</button></td>
+                <td><button onclick="appendTodisplay('.')" class="btn">.</button></td>
+                <td><button onclick="calculate()" class="btnf">=</button></td>
+                <td><button onclick="appendTodisplay('+')" class="btnf">+</button></td>
+            </tr>
+        </table>
+    </fieldset>
+</body>
+</html>
